@@ -176,3 +176,69 @@ footer > div{
     flex-wrap: wrap;
 }
 
+form {
+    min-height: 30px;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+}
+
+label, input, textarea, button {
+    display: block;
+}
+
+input{
+    max-height: 20px;
+}
+
+input, textarea, button{
+    width: 100%;
+    padding: 1.25rem;
+}
+
+input, textarea{
+    width: 250px;
+    margin-bottom: 1rem;
+    color: var(--white);
+    border: 0.125rem solid transparent;
+    background: var(--dark2);
+    border-radius: 1rem;
+    flex-wrap: wrap;
+}
+
+label{
+    color: var(--white);
+    padding-bottom: 8px;
+}
+
+textarea{
+    min-height: 12.5rem;
+    resize: vertical;
+}
+
+
+button:hover, button:focus{
+    outline: none;
+    background-color: var(--cyan1);
+}
+
+button:disabled {
+    cursor: not-allowed;
+    background: #555b69;
+  }
+
+.success,
+.error {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.success {
+  color: var(--white);
+}
+
+.error {
+  color: tomato;
+}

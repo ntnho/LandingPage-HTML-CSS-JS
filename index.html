@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aluizio Cavalcanti</title>
 </head>
@@ -58,6 +59,23 @@
     <footer id="contato">
 
         <h2 class="titulo"><strong>Fale comigo</strong></h2>
+
+        <form action="https://formsubmit.co/ajax/aluiziocavalcanti1@gmail.com" 
+        method="POST" 
+        data-form>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required />
+
+            <label for="email">E-mail</label>
+            <input type="text" name="email" id="email" required />
+            
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" required>
+            </textarea>
+            <button class="btn-action" type="submit" data-button>Enviar</button>
+
+        </form>
+
         <div>
             <a class="instagram" href="https://www.instagram.com/_cavalcantineto" title="Instagram" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#FFF" class="bi bi-instagram" viewBox="0 0 16 16">
