@@ -151,6 +151,24 @@ strong{
     cursor: default;
 }
 
+.exp .html{
+    height: 3rem;
+}
+.exp .css{
+    height: 3rem;
+}
+.exp .js{
+    height: 2.8rem;
+}
+
+.exp .logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 10px;
+}
+
 .port{
     background-color: var(--dark2);
 }
